@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+</head>
+<div class="container ">
+    <h1 id="me" class="col-md-8 text-primary text-center">DADAXON</h1>
+
+    <button class=" btn btn-primary" type="button"
+            onclick='document.getElementById("me").innerHTML = "UKAM QALE TEMURBEKLAR"'>
+        Click ME!
+    </button>
+</div>
+<div class="container text-center">
+    <button class="ml-3 btn btn-danger" onclick="document.getElementById('img').src='img/pic_bulbon.gif'">Turn on</button>
+
+    <img class="ml-3" id="img" src="img/pic_bulboff.gif" style="width:100px">
+
+    <button class="ml-3 btn btn-secondary" onclick="document.getElementById('img').src='img/pic_bulboff.gif'">Turn off</button>
+
+    <p id="demo">JavaScript can change the style of an HTML element.</p>
+
+    <button class="ml-3 btn btn-success" type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button>
+
+</div>
+
+
+</body>
+
+<script src="JS/main.js"></script>
+<script src="JS/jquery-3.3.1.slim.min.js"></script>
+<script src="JS/popper.min.js"></script>
+<script src="JS/bootstrap.min.js"></script>
+</html>
